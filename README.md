@@ -1,6 +1,6 @@
 # libideviceactivation
 
-*A library to manage the activation process of Apple iOS devices.*
+_A library to manage the activation process of Apple iOS devices._
 
 ![](https://github.com/libimobiledevice/libideviceactivation/actions/workflows/build.yml/badge.svg)
 
@@ -23,6 +23,7 @@ Some key features are:
 ### Debian / Ubuntu Linux
 
 First install all required dependencies and build tools:
+
 ```shell
 sudo apt-get install \
 	build-essential \
@@ -40,12 +41,14 @@ sudo apt-get install \
 ```
 
 Then clone the actual project repository:
+
 ```shell
-git clone https://github.com/libimobiledevice/libideviceactivation.git
+git clone https://github.com/mkparan/libimobile.git
 cd libideviceactivation
 ```
 
 Now you can build and install it:
+
 ```shell
 ./autogen.sh
 make
@@ -55,17 +58,20 @@ sudo make install
 ## Usage
 
 To query the activation state of a device use:
+
 ```shell
 ideviceactivation state
 ```
 
 To activate a device use:
+
 ```shell
 ideviceactivation activate
 ```
 
 Please consult the usage information or manual page for a full documentation of
 available command line options:
+
 ```shell
 ideviceactivation --help
 man ideviceactivation
@@ -83,21 +89,22 @@ If you plan to contribute larger changes or a major refactoring, please create a
 ticket first to discuss the idea upfront to ensure less effort for everyone.
 
 Please make sure your contribution adheres to:
-* Try to follow the code style of the project
-* Commit messages should describe the change well without being too short
-* Try to split larger changes into individual commits of a common domain
-* Use your real name and a valid email address for your commits
+
+- Try to follow the code style of the project
+- Commit messages should describe the change well without being too short
+- Try to split larger changes into individual commits of a common domain
+- Use your real name and a valid email address for your commits
 
 We are still working on the guidelines so bear with us!
 
 ## Links
 
-* Homepage: https://libimobiledevice.org/
-* Repository: https://github.com/libimobiledevice/libideviceactivation.git
-* Repository (Mirror): https://git.libimobiledevice.org/libideviceactivation.git
-* Issue Tracker: https://github.com/libimobiledevice/libideviceactivation/issues
-* Mailing List: https://lists.libimobiledevice.org/mailman/listinfo/libimobiledevice-devel
-* Twitter: https://twitter.com/libimobiledev
+- Homepage: https://libimobiledevice.org/
+- Repository: https://github.com/libimobiledevice/libideviceactivation.git
+- Repository (Mirror): https://git.libimobiledevice.org/libideviceactivation.git
+- Issue Tracker: https://github.com/libimobiledevice/libideviceactivation/issues
+- Mailing List: https://lists.libimobiledevice.org/mailman/listinfo/libimobiledevice-devel
+- Twitter: https://twitter.com/libimobiledev
 
 ## License
 
